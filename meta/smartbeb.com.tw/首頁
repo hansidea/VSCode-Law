@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<!--當前範例url：www.smartbeb.com.tw/-->
+
+<title>文章列表｜買保險 SmartBeb</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="copyright" content="Copyright © 2018 - 2022 Rich Fountain 版權所有，禁止擅自轉貼節錄" />
+<meta name="description" content="" />
+
+<!--Open Graph-->
+<meta property="og:title" content="首頁 | 買保險 SmartBeb" />
+<meta property="og:url" content="https://www.smartbeb.com.tw/" />
+<meta property="og:image" content= />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:description" content="我們為你打造透明、可靠的買保險平台，給你安心的保險規劃體驗。找推薦、求比較、做功課，你都可以在這裡找到優於預算的保險方案" />
+<meta property="og:site_name" content="買保險 SmartBeb" />
+<meta property="og:locale" content="zh_tw" />
+<meta property="og:type" content="website" />
+<meta property="article:author" content="買保險 SmartBeb" />
+<meta property="fb:app_id" content="434547613609263" />
+
+<!-- canonical -->
+<link rel="canonical" href="https://www.smartbeb.com.tw/" />
+
+<!--WebSite-->
+<script type="application/ld+json">
+  {
+  "@context": "https://schema.org/",
+  "@type": "WebSite",
+  "name": "買保險 SmartBeb",
+  "url": "https://www.smartbeb.com.tw/",
+  "description": "我們為你打造透明、可靠的買保險平台，給你安心的保險規劃體驗。找推薦、求比較、做功課，你都可以在這裡找到優於預算的保險方案", 
+  "potentialAction": [{
+      "@type": "SearchAction",
+      "target": "https://www.smartbeb.com.tw/insurance-search/{search_term_string}",
+      "query-input": "required name=search_term_string"
+  }, {
+      "@type": "SearchAction",
+      "target": "https://www.smartbeb.com.tw/articles/search/All/{search_term_string}",
+      "query-input": "required name=search_term_string"
+  }, {
+      "@type": "SearchAction",
+      "target": "https://www.smartbeb.com.tw/question/search/{search_term_string}",
+      "query-input": "required name=search_term_string"
+  }]
+  }
+</script>
+<!--BreadcrumbList-->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@id": "https://www.smartbeb.com.tw/",
+        "name": "買保險 SmartBeb"
+      }
+    }]
+  }
+</script>
+<!--SiteNavigationElement-->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [{
+        "@type": "SiteNavigationElement",
+        "position": 1,
+        "name": "成人罐頭保單",
+        "description": "保固現有生活、最低的保費、最高的保障",
+        "url": "https://www.smartbeb.com.tw/recommend/adult"
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "position": 2,
+        "name": "新生兒罐頭保單",
+        "description": "顛覆你對保險的觀念，不用花大錢也能購足保障",
+        "url": "https://www.smartbeb.com.tw/recommend/baby"
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "position": 3,
+        "name": "理財規劃計算機",
+        "description": "",
+        "url": "https://www.smartbeb.com.tw/needs_analysis/main"
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "position": 4,
+        "name": "保險新手村",
+        "description": "",
+        "url": "https://www.smartbeb.com.tw/notice/main"
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "position": 5,
+        "name": "保險專欄",
+        "description": "",
+        "url": "https://www.smartbeb.com.tw/articles/main"
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "position": 6,
+        "name": "保單健診",
+        "description": "各大保險公司 保單免費整理服務",
+        "url": "https://www.smartbeb.com.tw/inspect_intro"
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "position": 6,
+        "name": "保單查詢",
+        "description": "",
+        "url": "https://www.smartbeb.com.tw/insurance-search"
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "position": 7,
+        "name": "保險組合器",
+        "description": "",
+        "url": "https://www.smartbeb.com.tw/insurance-combination"
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "position": 8,
+        "name": "家庭保單管理",
+        "description": "你最貼心的保單收納盒",
+        "url": "https://www.smartbeb.com.tw/member/policy/family/tutorial"
+      },
+    ]
+  }
+</script>
+
+</html>

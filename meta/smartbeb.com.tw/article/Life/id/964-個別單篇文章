@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<!--當前範例url：www.smartbeb.com.tw/article/Life/id/964-->
+
+<title>{{抓取-本文標題}}｜買保險 SmartBeb</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="copyright" content="Copyright © 2018 - 2022 Rich Fountain 版權所有，禁止擅自轉貼節錄" />
+<meta name="description" content="{{抓取-描述欄位，第一段黃框}}" />
+<meta name="KeyWords" content="" />
+
+<!--Open Graph-->
+<meta property="og:title" content="{{抓取-本文標題}}" />
+<meta property="og:url" content="{{抓取-本文URL}}" />
+<meta property="og:image" content=>
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:description" content="{{抓取-描述欄位，第一段黃框}}" />
+<meta property="og:site_name" content="買保險 SmartBeb" />
+<meta property="og:locale" content="zh_tw" />
+<meta property="og:type" content="article" />
+<meta property="article:section" content="{{抓取-欄位-類型-英文名稱。例Life}}" />
+<meta property="article:author" content="{{抓取-本文作者}}" />
+<meta property="published_time" content="{{抓取-本文發文日期，格式符合ISO 8601，例2022-12-15T18:56:41+08:00}}" />
+<meta property="modified_time" content="{{抓取-本文最後編輯時間，格式符合ISO 8601，例2022-12-15T18:56:41+08:00}}" />
+<meta property="fb:app_id" content="434547613609263" />
+
+<!--canonical-->
+<link rel="canonical" href="{{抓取-本文URL}}" />
+
+<!--NewsArticle-->
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "NewsArticle",
+      "headline": "{{抓取-本文標題}}",
+      "image": "{{抓取-本文縮圖}}",
+      "datePublished": "{{抓取-本文發文日期，格式符合ISO8601，例2022-12-15T18:56:41+08:00}}",
+      "dateModified": "{{抓取-本文最後編輯時間，格式符合ISO8601，例2022-12-15T18:56:41+08:00}}",
+      "articleSection": "{{抓取-欄位-類型-英文名稱。例Life}}",
+      "url": "{{抓取-本文URL}}",
+      "mainEntityOfPage": "{{抓取-本文URL}}",
+      "author": {
+        "@type": "Person",
+        "name": "{{抓取-本文作者}}"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "買保險 SmartBeb",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.smartbeb.com.tw/images/logo.png"
+        }
+      },
+      "keywords": [
+        "{{抓取-本文全部hashtag-1。例壽險}}",
+        "{{抓取-本文全部hashtag-2。例找好險}}",
+        "{{抓取-本文全部hashtag-以此類推全部}}"
+      ],
+      "description": "{{抓取-描述欄位，第一段黃框}}",
+      "articleBody": "{{抓取-本文內文}}"
+    }
+  </script>
+
+<!--BreadcrumbList-->
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": "1",
+          "name": "買保險 SmartBeb",
+          "item": "https://www.smartbeb.com.tw"
+        },
+        {
+          "@type": "ListItem",
+          "position": "2",
+          "name": "保險文章",
+          "item": "https://www.smartbeb.com.tw/articles/main"
+        },
+        {
+          "@type": "ListItem",
+          "position": "3",
+          "name": "文章列表",
+          "item": "https://www.smartbeb.com.tw/articles/All/1/1"
+        },
+        {
+          "@type": "ListItem",
+          "position": "4",
+          "name": "{{抓取-欄位-類型-中文名稱。例壽險}}",
+          "item": "https://www.smartbeb.com.tw/articles/{{抓取-欄位-類型-英文名稱。例Life}}/1/1"
+        },
+        {
+          "@type": "ListItem",
+          "position": "5",
+          "name": "{{抓取-本文標題}}",
+          "item": "{{抓取-本文URL}}"
+        }
+      ]
+    }
+  </script>
+
+</html>
