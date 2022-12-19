@@ -63,6 +63,39 @@
     }
   </script>
 
+<!--ImageObject-->
+<!--抓取內文手動上傳的圖片即可（封面照片不用）-->
+<script type="application/ld+json">
+    [{
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": "{{抓取-本文內文圖片-第1張}}",
+      "embeddedTextCaption": "{{抓取-該圖片alt}}",
+      "license": "https://www.smartbeb.com.tw/servicepolicy",
+      "acquireLicensePage": "https://www.smartbeb.com.tw/servicepolicy",
+      "creditText": "買保險 SmartBeb",
+      "creator": {
+        "@type": "Person",
+        "name": "{{抓取-本文作者}}"
+       },
+      "copyrightNotice": "買保險 SmartBeb"
+    },
+   {
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": "{{抓取-本文內文圖片-第2張...以此類推全部}}",
+      "embeddedTextCaption": "{{抓取-該圖片alt}}",
+      "license": "https://www.smartbeb.com.tw/servicepolicy",
+      "acquireLicensePage": "https://www.smartbeb.com.tw/servicepolicy",
+      "creditText": "買保險 SmartBeb",
+      "creator": {
+        "@type": "Person",
+        "name": "{{抓取-本文作者}}"
+       },
+      "copyrightNotice": "買保險 SmartBeb"
+    }]
+    </script>
+
 <!--BreadcrumbList-->
 <script type="application/ld+json">
     {
