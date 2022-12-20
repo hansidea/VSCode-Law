@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<!--當前範例url：www.smartbeb.com.tw/article/Life/id/964-->
+<!--TO悅慶：當前範例url：www.smartbeb.com.tw/article/Life/id/964-->
 
 <title>{{抓取-本文標題}}｜買保險 SmartBeb</title>
 <meta charset="UTF-8" />
@@ -64,7 +64,7 @@
   </script>
 
 <!--ImageObject-->
-<!--抓取內文手動上傳的圖片即可（封面照片不用）-->
+<!--TO悅慶：抓取內文手動上傳的圖片即可（封面照片不用）-->
 <script type="application/ld+json">
     [{
       "@context": "https://schema.org/",

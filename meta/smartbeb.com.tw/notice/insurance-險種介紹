@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-<!--當前範例url：www.smartbeb.com.tw/notice/insurance-->
-<!--原始url依照6險種還有往下6個分頁：/notice/insurance/{life}...，以下以合併為6tab後的單一網頁規劃-->
+<!--TO悅慶：當前範例url：www.smartbeb.com.tw/notice/insurance-->
+<!--TO悅慶：原始url依照6險種還有往下6個分頁：/notice/insurance/{life}...，以下以合併為6tab後的單一網頁規劃-->
 
 <title>險種介紹－保險新手村｜買保險 SmartBeb</title>
 <meta charset="UTF-8" />
