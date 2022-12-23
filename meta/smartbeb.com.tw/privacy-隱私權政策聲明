@@ -21,11 +21,8 @@
 <meta property="og:type" content="website" />
 <meta property="fb:app_id" content="434547613609263" />
 
-<!-- canonical -->
-<link rel="canonical" href="https://www.smartbeb.com.tw/privacy" />
-
 <!-- robots -->
-<meta name="robots" content="noindex, follow, noarchive">
+<meta name="robots" content="noindex">
 
 <!--BreadcrumbList-->
 <script type="application/ld+json">

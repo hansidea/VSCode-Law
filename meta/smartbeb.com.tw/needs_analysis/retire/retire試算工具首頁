@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html>
-<!--TO悅慶：當前範例url：www.smartbeb.com.tw/needs_analysis-->
+<!--TO悅慶：當前範例url：www.smartbeb.com.tw/needs_analysis/retire-->
 
-<title>理財規劃計算機｜買保險 SmartBeb</title>
+<title>退休花費試算－理財規劃計算機｜買保險 SmartBeb</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <meta name="format-detection" content="telephone=no" />
 <meta name="copyright" content="Copyright © 2018 - 2022 Rich Fountain 版權所有，禁止擅自轉貼節錄" />
-<meta name="description" content="規劃自己的夢想藍圖，陪你實現理想中的人生，分析出專屬你的投資理財與保險方案" />
+<meta name="description" content="有趣的情境問答就能試算退休金、退休年齡，了解自己離退休條件有多近？利用理財與保險規劃，提前達成退休條件" />
 
 <!--Open Graph-->
-<meta property="og:title" content="理財規劃計算機｜買保險 SmartBeb" />
-<meta property="og:url" content="https://www.smartbeb.com.tw/needs_analysis" />
-<meta property="og:image" content="https://www.smartbeb.com.tw/images/prod/needs-thumbnail.jpg" />
+<meta property="og:title" content="退休花費試算－理財規劃計算機｜買保險 SmartBeb" />
+<meta property="og:url" content="https://www.smartbeb.com.tw/needs_analysis/retire" />
+<meta property="og:image" content="https://www.smartbeb.com.tw/images/prod/og_default.jpg" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-<meta property="og:description" content="規劃自己的夢想藍圖，陪你實現理想中的人生，分析出專屬你的投資理財與保險方案" />
+<meta property="og:description" content="有趣的情境問答就能試算退休金、退休年齡，了解自己離退休條件有多近？利用理財與保險規劃，提前達成退休條件" />
 <meta property="og:site_name" content="買保險 SmartBeb" />
 <meta property="og:locale" content="zh_tw" />
 <meta property="og:type" content="website" />
 <meta property="fb:app_id" content="434547613609263" />
 
 <!-- canonical -->
-<link rel="canonical" href="https://www.smartbeb.com.tw/needs_analysis" />
+<link rel="canonical" href="https://www.smartbeb.com.tw/needs_analysis/retire" />
 
 <!--BreadcrumbList-->
 <script type="application/ld+json">
@@ -41,9 +41,15 @@
           "position": "2",
           "name": "理財規劃計算機",
           "item": "https://www.smartbeb.com.tw/needs_analysis"
+        },
+        {
+          "@type": "ListItem",
+          "position": "3",
+          "name": "退休花費試算－理財規劃計算機",
+          "item": "https://www.smartbeb.com.tw/needs_analysis/retire"
         }
       ]
     }
-</script>
+  </script>
 
 </html>
