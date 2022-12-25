@@ -2,7 +2,7 @@
 <html>
 <!--TO悅慶：當前範例url：www.smartbeb.com.tw/articles/main-->
 
-<title>保險文章｜買保險 SmartBeb</title>
+<title>保險文章 | 買保險 SmartBeb</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <meta name="format-detection" content="telephone=no" />
@@ -10,7 +10,7 @@
 <meta name="description" content="掌握最新的保險話題與知識，用白話文讓你明白保障規劃的基本觀念與眉角，建立起自己的想法，再也不怕被人牽著鼻子走" />
 
 <!--Open Graph-->
-<meta property="og:title" content="保險文章｜買保險 SmartBeb" />
+<meta property="og:title" content="保險文章 | 買保險 SmartBeb" />
 <meta property="og:url" content="https://www.smartbeb.com.tw/articles/main" />
 <meta property="og:image" content="https://www.smartbeb.com.tw/images/og/og_default.jpg">
 <meta property="og:image:width" content="1200" />
