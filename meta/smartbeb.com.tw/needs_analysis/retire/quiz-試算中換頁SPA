@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<!--此頁面為SPA，無實體頁面-->
+
+<!--TO悅慶：當前範例url：www.smartbeb.com.tw/needs_analysis/retire-->
+
+<!--STEP 1 → STEP 2：SPA換頁特殊設定
+按「下一步」按鈕時，執行更換下一畫面的標題＆網頁-->
+
+document.title = "理財風險分析－退休花費試算 | 買保險 SmartBeb" 
+windows.history.replaceState(null,"",https://www.smartbeb.com.tw/needs_analysis/retire/quiz)
+
+<!--TO悅慶：當前範例url：/www.smartbeb.com.tw/needs_analysis/retire/quiz-->
+
+<!--接著執行 push data layer
+（推送 pagePath、pageTitle，值由動態取得（上一步變換後的值），此步驟目的為讓GTM推送資訊至GA）-->
+
+<script>
+ window.dataLayer = window.dataLayer || [];
+ window.dataLayer.push({
+ 'event': 'Pageview',
+ 'pagePath': '動態取得目前值',
+ 'pageTitle': '動態取得目前值'
+ }); 
+</script>
+
+
+</html>
