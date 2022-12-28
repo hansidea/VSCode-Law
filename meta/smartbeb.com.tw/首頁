@@ -6,7 +6,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <meta name="format-detection" content="telephone=no" />
-<meta name="copyright" content="Copyright © 2018 - 2022 Rich Fountain 版權所有，禁止擅自轉貼節錄" />
+<meta name="copyright" content="Copyright © 2018 - {{今年西元年}} Rich Fountain 版權所有，禁止擅自轉貼節錄" />
 <meta name="description" content="" />
 
 <!--Open Graph-->

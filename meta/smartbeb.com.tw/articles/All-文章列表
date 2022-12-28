@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
 <!--TO悅慶：當前範例url：www.smartbeb.com.tw/articles/All/1/1-->
+<!--url規則：正式網址請勿掛上分頁參數/1/1，user 進站後自己出現沒關係-->
 
 <title>文章列表 | 買保險 SmartBeb</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <meta name="format-detection" content="telephone=no" />
-<meta name="copyright" content="Copyright © 2018 - 2022 Rich Fountain 版權所有，禁止擅自轉貼節錄" />
+<meta name="copyright" content="Copyright © 2018 - {{今年西元年}} Rich Fountain 版權所有，禁止擅自轉貼節錄" />
 <meta name="description" content="掌握最新的保險話題與知識，用白話文讓你明白保障規劃的基本觀念與眉角，建立起自己的想法，再也不怕被人牽著鼻子走" />
 
 <!--Open Graph-->
 <meta property="og:title" content="{{抓取-本文標題}}" />
-<meta property="og:url" content="{{抓取-本文URL}}" />
+<!--提醒url規則：正式網址請勿掛上分頁參數/1/1，user 進站後自己出現沒關係-->
+<meta property="og:url" content="{{抓取-本文URL}}" /> 
 <meta property="og:image" content="https://www.smartbeb.com.tw/images/og/og_default.jpg">
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
@@ -22,7 +24,8 @@
 <meta property="fb:app_id" content="434547613609263" />
 
 <!-- canonical -->
-<link rel="canonical" href="{{抓取-本文URL}}" />
+<!--提醒url規則：正式網址請勿掛上分頁參數/1/1，user 進站後自己出現沒關係-->
+<link rel="canonical" href="https://www.smartbeb.com.tw/articles/All" />
 
 <!--BreadcrumbList-->
 <script type="application/ld+json">
@@ -46,10 +49,61 @@
         "@type": "ListItem",
         "position": "3",
         "name": "文章列表",
-        "item": "https://www.smartbeb.com.tw/articles/All/1/1"
+        "item": "https://www.smartbeb.com.tw/articles/All"
       }
     ]
   }
 </script>
+
+<!-- 本文文章列表 -->
+<!-- 本文文章列表範例
+      {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "name": "2023 投資型保單介紹｜兼具保障和投資的保單，適合我嗎？！",
+        "headline": "2023 投資型保單介紹｜兼具保障和投資的保單，適合我嗎？！",
+        "url": "https://www.smartbeb.com.tw/article/Financial-concept/id/965",
+        "image": "{{抓取-本頁文章列表-第1則-圖片url}}",    
+        "description": "https://www.smartbeb.com.tw/upload/banner/63aa663e31a72.jpeg",
+        "author": {
+          "@type": "Person",
+          "name": "買編",
+          "url": "https://www.smartbeb.com.tw/author/買編"
+        }
+        ...以此類推本頁每篇文章
+-->
+<script type="application/ld+json">
+  [
+    {
+      "@context": "http://schema.org",
+      "@type": "NewsArticle",
+      "name": "{{抓取-本頁文章列表-第1則-標題}}",
+      "headline": "{{抓取-本頁文章列表-第1則-標題}}",
+      "url": "{{抓取-本頁文章列表-第1則-url}}",
+      "image": "{{抓取-本頁文章列表-第1則-圖片url}}",    
+      "description": "{{抓取-本頁文章列表-第1則-描述欄位}}",
+      "author": {
+        "@type": "Person",
+        "name": "{{抓取-欄位-作者名稱}}",
+        "url": "https://www.smartbeb.com.tw/author/{{抓取-欄位-作者名稱}}"
+      }
+    },
+    ...以此類推本頁每篇文章
+    {
+      "@context": "http://schema.org",
+      "@type": "NewsArticle",
+      "name": "{{抓取-本頁文章列表-本頁最末則-標題}}",
+      "headline": "{{抓取-本頁文章列表-本頁最末則-標題}}",
+      "url": "{{抓取-本頁文章列表-本頁最末則-url}}",
+      "image": "{{抓取-本頁文章列表-本頁最末則-圖片url}}",    
+      "description": "{{抓取-本頁文章列表-本頁最末則-描述欄位}}",
+      "author": {
+        "@type": "Person",
+        "name": "{{抓取-欄位-作者名稱}}",
+        "url": "https://www.smartbeb.com.tw/author/{{抓取-欄位-作者名稱}}"
+      }
+    }
+  ]
+  </script>
 
 </html>

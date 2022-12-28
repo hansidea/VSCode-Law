@@ -6,8 +6,8 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <meta name="format-detection" content="telephone=no" />
-<meta name="copyright" content="Copyright © 2018 - 2022 Rich Fountain 版權所有，禁止擅自轉貼節錄" />
-<meta name="description" content="{{抓取-描述欄位，第一段黃框}}" />
+<meta name="copyright" content="Copyright © 2018 - {{今年西元年}} Rich Fountain 版權所有，禁止擅自轉貼節錄" />
+<meta name="description" content="{{抓取-描述欄位，第1段黃框}}" />
 <meta name="KeyWords" content="" />
 
 <!--Open Graph-->
@@ -16,7 +16,7 @@
 <meta property="og:image" content="{{抓取-本文縮圖}}">
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-<meta property="og:description" content="{{抓取-描述欄位，第一段黃框}}" />
+<meta property="og:description" content="{{抓取-描述欄位，第1段黃框}}" />
 <meta property="og:site_name" content="買保險 SmartBeb" />
 <meta property="og:locale" content="zh_tw" />
 <meta property="og:type" content="article" />
@@ -58,7 +58,7 @@
         "{{抓取-本文全部hashtag-2。例找好險}}",
         "{{抓取-本文全部hashtag-以此類推全部}}"
       ],
-      "description": "{{抓取-描述欄位，第一段黃框}}",
+      "description": "{{抓取-描述欄位，第1段黃框}}",
       "articleBody": "{{抓取-本文內文}}"
     }
   </script>
@@ -118,13 +118,13 @@
           "@type": "ListItem",
           "position": "3",
           "name": "文章列表",
-          "item": "https://www.smartbeb.com.tw/articles/All/1/1"
+          "item": "https://www.smartbeb.com.tw/articles/All"
         },
         {
           "@type": "ListItem",
           "position": "4",
           "name": "{{抓取-欄位-類型-中文名稱。例壽險}}",
-          "item": "https://www.smartbeb.com.tw/articles/{{抓取-欄位-類型-英文名稱。例Life}}/1/1"
+          "item": "https://www.smartbeb.com.tw/articles/{{抓取-欄位-類型-英文名稱。例Life}}"
         },
         {
           "@type": "ListItem",
