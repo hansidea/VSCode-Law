@@ -11,7 +11,7 @@
 <meta name="description" content="掌握最新的保險話題與知識，用白話文讓你明白保障規劃的基本觀念與眉角，建立起自己的想法，再也不怕被人牽著鼻子走" />
 
 <!-- Open Graph-->
-<meta property="og:title" content="{{抓取-欄位-作者名稱}}的所有文章" />
+<meta property="og:title" content="{{抓取-欄位-作者名稱}}的所有文章 | 買保險 SmartBeb" />
 <!-- 提醒url規則：正式網址請勿掛上分頁參數/1/1，user 進站後自己出現沒關係 -->
 <meta property="og:url" content="https://www.smartbeb.com.tw/author/{{抓取-欄位-作者名稱}}" />
 <meta property="og:image" content="https://www.smartbeb.com.tw/images/og/og_default.jpg" />
