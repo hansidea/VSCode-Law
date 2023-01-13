@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <!--TO悅慶：當前範例url：www.smartbeb.com.tw/articles/Life/1/1-->
-<!--提醒url規則：正式網址請勿掛上分頁參數/1/1，user 進站後自己出現沒關係-->
 
 <title>{{抓取-欄位-類型-中文名稱。例壽險}}－文章列表 | 買保險 SmartBeb</title>
 <!--抓取官網管理後台>文章管理>分類維護>{{分類名稱}}-->
@@ -13,7 +12,6 @@
 
 <!--Open Graph-->
 <meta property="og:title" content="{{抓取-本文標題}} | 買保險 SmartBeb" />
-<!-- 提醒url規則：正式網址請勿掛上分頁參數/1/1，例：www.smartbeb.com.tw/articles/Life -->
 <meta property="og:url" content="https://www.smartbeb.com.tw/articles/{{抓取-欄位-類型-英文名稱}}" />
 <meta property="og:image" content="https://www.smartbeb.com.tw/images/og/og_default.jpg">
 <meta property="og:image:width" content="1200" />
@@ -25,7 +23,6 @@
 <meta property="fb:app_id" content="434547613609263" />
 
 <!-- canonical -->
-<!-- 提醒url規則：正式網址請勿掛上分頁參數/1/1，例：www.smartbeb.com.tw/articles/Life -->
 <link rel="canonical" href="https://www.smartbeb.com.tw/articles/{{抓取-欄位-類型-英文名稱}}" />
 
 <!--BreadcrumbList-->
