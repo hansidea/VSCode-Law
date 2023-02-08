@@ -2,7 +2,7 @@
 <html>
 <!--TO悅慶：當前範例url：www.smartbeb.com.tw/needs_analysis/retire-->
 
-<title>退休花費試算－理財規劃計算機 | 買保險 SmartBeb</title>
+<title>退休花費試算 - 理財規劃計算機 | 買保險 SmartBeb</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <meta name="format-detection" content="telephone=no" />
@@ -10,7 +10,7 @@
 <meta name="description" content="有趣的情境問答就能試算退休金、退休年齡，了解自己離退休條件有多近？利用理財與保險規劃，提前達成退休條件" />
 
 <!--Open Graph-->
-<meta property="og:title" content="退休花費試算－理財規劃計算機 | 買保險 SmartBeb" />
+<meta property="og:title" content="退休花費試算 - 理財規劃計算機 | 買保險 SmartBeb" />
 <meta property="og:url" content="https://www.smartbeb.com.tw/needs_analysis/retire" />
 <meta property="og:image" content="https://www.smartbeb.com.tw/images/prod/og_default.jpg" />
 <meta property="og:image:width" content="1200" />
@@ -45,7 +45,7 @@
         {
           "@type": "ListItem",
           "position": "3",
-          "name": "退休花費試算－理財規劃計算機",
+          "name": "退休花費試算 - 理財規劃計算機",
           "item": "https://www.smartbeb.com.tw/needs_analysis/retire"
         }
       ]

@@ -7,7 +7,7 @@
 <!--STEP 1 → STEP 2：SPA換頁特殊設定
 按「下一步」按鈕時，執行更換下一畫面的標題＆網頁-->
 
-document.title = "理財風險分析－退休花費試算 | 買保險 SmartBeb" 
+document.title = "理財風險分析 - 退休花費試算 | 買保險 SmartBeb" 
 windows.history.replaceState(null,"",https://www.smartbeb.com.tw/needs_analysis/retire/quiz)
 
 <!--TO悅慶：當前範例url：/www.smartbeb.com.tw/needs_analysis/retire/quiz-->
