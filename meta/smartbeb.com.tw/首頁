@@ -39,7 +39,7 @@
       "query-input": "required name=search_term_string"
   }, {
       "@type": "SearchAction",
-      "target": "https://www.smartbeb.com.tw/articles/search/All/{search_term_string}",
+      "target": "https://www.smartbeb.com.tw/article/search/{search_term_string}",
       "query-input": "required name=search_term_string"
   }, {
       "@type": "SearchAction",
@@ -101,7 +101,7 @@
         "position": 5,
         "name": "保險專欄",
         "description": "",
-        "url": "https://www.smartbeb.com.tw/articles/main"
+        "url": "https://www.smartbeb.com.tw/article/main"
       },
       {
         "@type": "SiteNavigationElement",

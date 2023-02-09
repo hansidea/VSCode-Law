@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
-<!-- TO悅慶：當前範例url：www.smartbeb.com.tw/hashtag/找好險/1/1 -->
-<!-- url規則：/hashtag/{{抓取-本次hashtag文字}}，後面不用掛上分頁參數/1/1 -->
+<!--TO悅慶：
+  1.當前範例url：www.smartbeb.com.tw/hashtag/找好險/1/1
+  2.新正式url例：www.smartbeb.com.tw/article/hashtag/找好險 -->
 
 <title>{{抓取-本次hashtag文字}} | 買保險 SmartBeb</title>
 <meta charset="UTF-8" />
@@ -12,7 +13,7 @@
 
 <!-- Open Graph-->
 <meta property="og:title" content="{{抓取-本次hashtag文字}} | 買保險 SmartBeb" />
-<meta property="og:url" content="https://www.smartbeb.com.tw/hashtag/{{抓取-本次hashtag文字}}" />
+<meta property="og:url" content="https://www.smartbeb.com.tw/article/hashtag/{{抓取-本次hashtag文字}}" />
 <meta property="og:image" content="https://www.smartbeb.com.tw/images/og/og_default.jpg" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
@@ -23,7 +24,7 @@
 <meta property="fb:app_id" content="434547613609263" />
 
 <!-- canonical -->
-<link rel="canonical" href="https://www.smartbeb.com.tw/articles/All" />
+<link rel="canonical" href="https://www.smartbeb.com.tw/article/all" />
 
 <!-- BreadcrumbList -->
 <script type="application/ld+json">
@@ -41,19 +42,19 @@
           "@type": "ListItem",
           "position": "2",
           "name": "保險文章",
-          "item": "https://www.smartbeb.com.tw/articles/main"
+          "item": "https://www.smartbeb.com.tw/article/main"
         },
         {
           "@type": "ListItem",
           "position": "3",
           "name": "文章列表",
-          "item": "https://www.smartbeb.com.tw/articles/All"
+          "item": "https://www.smartbeb.com.tw/article/all"
         },
         {
           "@type": "ListItem",
           "position": "4",
           "name": "{{抓取-本次hashtag文字}}",
-          "item": "https://www.smartbeb.com.tw/hashtag/{{抓取-本次hashtag文字}}"
+          "item": "https://www.smartbeb.com.tw/article/hashtag/{{抓取-本次hashtag文字}}"
         }
       ]
     }
@@ -73,7 +74,7 @@
         "author": {
           "@type": "Person",
           "name": "買編",
-          "url": "https://www.smartbeb.com.tw/author/買編"
+          "url": "https://www.smartbeb.com.tw/article/author/買編"
         }
         ...以此類推本頁每篇文章
 -->
@@ -90,7 +91,7 @@
         "author": {
           "@type": "Person",
           "name": "{{抓取-欄位-作者名稱}}",
-          "url": "https://www.smartbeb.com.tw/author/{{抓取-欄位-作者名稱}}"
+          "url": "https://www.smartbeb.com.tw/article/author/{{抓取-欄位-作者名稱}}"
         }
       },
       ...以此類推本頁每篇文章
@@ -105,7 +106,7 @@
         "author": {
           "@type": "Person",
           "name": "{{抓取-欄位-作者名稱}}",
-          "url": "https://www.smartbeb.com.tw/author/{{抓取-欄位-作者名稱}}"
+          "url": "https://www.smartbeb.com.tw/article/author/{{抓取-欄位-作者名稱}}"
         }
       }
     ]

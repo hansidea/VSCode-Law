@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-<!--TO悅慶：當前範例url：www.smartbeb.com.tw/articles/All/1/1-->
+<!--TO悅慶：
+  1.當前範例url：www.smartbeb.com.tw/article/all/1/1
+  2.新正式url例：www.smartbeb.com.tw/article/all -->
 
 <title>文章列表 | 買保險 SmartBeb</title>
 <meta charset="UTF-8" />
@@ -22,7 +24,7 @@
 <meta property="fb:app_id" content="434547613609263" />
 
 <!-- canonical -->
-<link rel="canonical" href="https://www.smartbeb.com.tw/articles/All" />
+<link rel="canonical" href="https://www.smartbeb.com.tw/article/all" />
 
 <!--BreadcrumbList-->
 <script type="application/ld+json">
@@ -40,13 +42,13 @@
         "@type": "ListItem",
         "position": "2",
         "name": "保險文章",
-        "item": "https://www.smartbeb.com.tw/articles/main"
+        "item": "https://www.smartbeb.com.tw/article/main"
       },
       {
         "@type": "ListItem",
         "position": "3",
         "name": "文章列表",
-        "item": "https://www.smartbeb.com.tw/articles/All"
+        "item": "https://www.smartbeb.com.tw/article/all"
       }
     ]
   }
@@ -59,13 +61,13 @@
         "@type": "NewsArticle",
         "name": "2023 投資型保單介紹｜兼具保障和投資的保單，適合我嗎？！",
         "headline": "2023 投資型保單介紹｜兼具保障和投資的保單，適合我嗎？！",
-        "url": "https://www.smartbeb.com.tw/article/Financial-concept/id/965",
+        "url": "https://www.smartbeb.com.tw/article/financial-concept/id/965",
         "image": "{{抓取-本頁文章列表-第1則-圖片url}}",    
         "description": "https://www.smartbeb.com.tw/upload/banner/63aa663e31a72.jpeg",
         "author": {
           "@type": "Person",
           "name": "買編",
-          "url": "https://www.smartbeb.com.tw/author/買編"
+          "url": "https://www.smartbeb.com.tw/article/author/買編"
         }
         ...以此類推本頁每篇文章
 -->
@@ -82,7 +84,7 @@
       "author": {
         "@type": "Person",
         "name": "{{抓取-欄位-作者名稱}}",
-        "url": "https://www.smartbeb.com.tw/author/{{抓取-欄位-作者名稱}}"
+        "url": "https://www.smartbeb.com.tw/article/author/{{抓取-欄位-作者名稱}}"
       }
     },
     ...以此類推本頁每篇文章
@@ -97,7 +99,7 @@
       "author": {
         "@type": "Person",
         "name": "{{抓取-欄位-作者名稱}}",
-        "url": "https://www.smartbeb.com.tw/author/{{抓取-欄位-作者名稱}}"
+        "url": "https://www.smartbeb.com.tw/article/author/{{抓取-欄位-作者名稱}}"
       }
     }
   ]

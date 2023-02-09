@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-<!--TO悅慶：當前範例url：www.smartbeb.com.tw/articles/main-->
+<!-- TO悅慶：
+  1.當前範例url：www.smartbeb.com.tw/articles/main
+  2.新正式url例：www.smartbeb.com.tw/article/main -->
 
 <title>保險文章 | 買保險 SmartBeb</title>
 <meta charset="UTF-8" />
@@ -9,9 +11,9 @@
 <meta name="copyright" content="Copyright © 2018 - {{今年西元年}} Rich Fountain 版權所有，禁止擅自轉貼節錄" />
 <meta name="description" content="掌握最新的保險話題與知識，用白話文讓你明白保障規劃的基本觀念與眉角，建立起自己的想法，再也不怕被人牽著鼻子走" />
 
-<!--Open Graph-->
+<!-- Open Graph -->
 <meta property="og:title" content="保險文章 | 買保險 SmartBeb" />
-<meta property="og:url" content="https://www.smartbeb.com.tw/articles/main" />
+<meta property="og:url" content="https://www.smartbeb.com.tw/article/main" />
 <meta property="og:image" content="https://www.smartbeb.com.tw/images/og/og_default.jpg" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
@@ -22,9 +24,9 @@
 <meta property="fb:app_id" content="434547613609263" />
 
 <!-- canonical -->
-<link rel="canonical" href="https://www.smartbeb.com.tw/articles/main" />
+<link rel="canonical" href="https://www.smartbeb.com.tw/article/main" />
 
-<!--BreadcrumbList-->
+<!-- BreadcrumbList -->
 <script type="application/ld+json">
     {
       "@context": "https://schema.org/",
@@ -40,7 +42,7 @@
           "@type": "ListItem",
           "position": "2",
           "name": "保險文章",
-          "item": "https://www.smartbeb.com.tw/articles/main"
+          "item": "https://www.smartbeb.com.tw/article/main"
         }
       ]
     }
@@ -60,17 +62,17 @@
             {
               "@type": "newsArticle",
               "name": "人生各階段，保險規劃懶人包",
-              "url": "https://www.smartbeb.com.tw/article/Concept/id/204"
+              "url": "https://www.smartbeb.com.tw/article/concept/id/204"
             },
             {
               "@type": "newsArticle",
               "name": "內行人不會這樣挑保單，四大重點報你知",
-              "url": "https://www.smartbeb.com.tw/article/Concept/id/548"
+              "url": "https://www.smartbeb.com.tw/article/concept/id/548"
             },
             {
               "@type": "newsArticle",
               "name": "保險經紀人 vs 保險公司！業務超級比一比！誰才是「對的人」？",
-              "url": "https://www.smartbeb.com.tw/article/Concept/id/29"
+              "url": "https://www.smartbeb.com.tw/article/concept/id/29"
             }
           ]
         },
@@ -82,17 +84,17 @@
             {
               "@type": "newsArticle",
               "name": "內行都推薦，這幾張定期壽險超便宜！",
-              "url": "https://www.smartbeb.com.tw/article/Life/id/504"
+              "url": "https://www.smartbeb.com.tw/article/life/id/504"
             },
             {
               "@type": "newsArticle",
               "name": "終身壽險這樣搭簡直踩雷！換方式保障高無壓力",
-              "url": "https://www.smartbeb.com.tw/article/Life/id/499"
+              "url": "https://www.smartbeb.com.tw/article/life/id/499"
             },
             {
               "@type": "newsArticle",
               "name": "另一種選擇，小額終老（終身）壽險",
-              "url": "https://www.smartbeb.com.tw/article/Life/id/407"
+              "url": "https://www.smartbeb.com.tw/article/life/id/407"
             }
           ]
         },
@@ -104,17 +106,17 @@
             {
               "@type": "newsArticle",
               "name": "3 分鐘，搞懂住院醫療險",
-              "url": "https://www.smartbeb.com.tw/article/Medical/id/203"
+              "url": "https://www.smartbeb.com.tw/article/medical/id/203"
             },
             {
               "@type": "newsArticle",
               "name": "2022 網路熱門醫療險推薦",
-              "url": "https://www.smartbeb.com.tw/article/Medical/id/648"
+              "url": "https://www.smartbeb.com.tw/article/medical/id/648"
             },
             {
               "@type": "newsArticle",
               "name": "什麼規劃拿麼厲害？同一事故理賠差 17 萬！",
-              "url": "https://www.smartbeb.com.tw/article/Medical/id/578"
+              "url": "https://www.smartbeb.com.tw/article/medical/id/578"
             }
           ]
         },
@@ -126,12 +128,12 @@
             {
               "@type": "newsArticle",
               "name": "意外險保什麼？三分鐘搞懂意外傷害理賠和選擇重點！",
-              "url": "https://www.smartbeb.com.tw/article/Accident/id/229"
+              "url": "https://www.smartbeb.com.tw/article/accident/id/229"
             },
             {
               "@type": "newsArticle",
               "name": "投保意外險必問7大題！連業務都誇你",
-              "url": "https://www.smartbeb.com.tw/article/Accident/id/461"
+              "url": "https://www.smartbeb.com.tw/article/accident/id/461"
             }
           ]
         },
@@ -143,17 +145,17 @@
             {
               "@type": "newsArticle",
               "name": "失能險在保什麼？如何保？推薦這四重點報你知",
-              "url": "https://www.smartbeb.com.tw/article/Disability/id/196"
+              "url": "https://www.smartbeb.com.tw/article/disability/id/196"
             },
             {
               "@type": "newsArticle",
               "name": "2022 網路熱門失能險推薦",
-              "url": "https://www.smartbeb.com.tw/article/Disability/id/639"
+              "url": "https://www.smartbeb.com.tw/article/disability/id/639"
             },
             {
               "@type": "newsArticle",
               "name": "失能險理賠關鍵大解析",
-              "url": "https://www.smartbeb.com.tw/article/Disability/id/576"
+              "url": "https://www.smartbeb.com.tw/article/disability/id/576"
             }
           ]
         },
@@ -165,17 +167,17 @@
             {
               "@type": "newsArticle",
               "name": "（上）癌症險在保啥？新舊制差在哪？五分鐘速懂如何挑選！",
-              "url": "https://www.smartbeb.com.tw/article/Cancer/id/176"
+              "url": "https://www.smartbeb.com.tw/article/cancer/id/176"
             },
             {
               "@type": "newsArticle",
               "name": "（下）癌症險在保啥？新舊制差在哪？五分鐘速懂如何挑選！",
-              "url": "https://www.smartbeb.com.tw/article/Cancer/id/180"
+              "url": "https://www.smartbeb.com.tw/article/cancer/id/180"
             },
             {
               "@type": "newsArticle",
               "name": "防癌新寵！為何大家都推薦重大傷病險？",
-              "url": "https://www.smartbeb.com.tw/article/Catastrophic_illness/id/453"
+              "url": "https://www.smartbeb.com.tw/article/catastrophic_illness/id/453"
             }
           ]
         },
@@ -187,12 +189,12 @@
             {
               "@type": "newsArticle",
               "name": "保前先看！最新重大傷病險評比推薦",
-              "url": "https://www.smartbeb.com.tw/article/Catastrophic_illness/id/470"
+              "url": "https://www.smartbeb.com.tw/article/catastrophic_illness/id/470"
             },
             {
               "@type": "newsArticle",
               "name": "防癌新寵！為何大家都推薦重大傷病險？",
-              "url": "https://www.smartbeb.com.tw/article/Catastrophic_illness/id/453"
+              "url": "https://www.smartbeb.com.tw/article/catastrophic_illness/id/453"
             }
           ]
         }

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-<!--TO悅慶：當前範例url：www.smartbeb.com.tw/article/Life/id/964-->
+<!--TO悅慶：
+  1.當前範例url：www.smartbeb.com.tw/article/Life/id/964
+  2.新正式url例：www.smartbeb.com.tw/article/life/id/964 -->
 
 <title>{{抓取-本文標題}} | 買保險 SmartBeb</title>
 <meta charset="UTF-8" />
@@ -77,10 +79,10 @@
       "creator": {
         "@type": "Person",
         "name": "{{抓取-本文作者}}"
-       },
+      },
       "copyrightNotice": "買保險 SmartBeb"
     },
-   {
+    {
       "@context": "https://schema.org/",
       "@type": "ImageObject",
       "contentUrl": "{{抓取-本文內文圖片-第2張...以此類推全部}}",
@@ -91,7 +93,7 @@
       "creator": {
         "@type": "Person",
         "name": "{{抓取-本文作者}}"
-       },
+        },
       "copyrightNotice": "買保險 SmartBeb"
     }]
     </script>
@@ -112,19 +114,19 @@
           "@type": "ListItem",
           "position": "2",
           "name": "保險文章",
-          "item": "https://www.smartbeb.com.tw/articles/main"
+          "item": "https://www.smartbeb.com.tw/article/main
         },
         {
           "@type": "ListItem",
           "position": "3",
           "name": "文章列表",
-          "item": "https://www.smartbeb.com.tw/articles/All"
+          "item": "https://www.smartbeb.com.tw/article/all"
         },
         {
           "@type": "ListItem",
           "position": "4",
           "name": "{{抓取-欄位-類型-中文名稱。例壽險}}",
-          "item": "https://www.smartbeb.com.tw/articles/{{抓取-欄位-類型-英文名稱。例Life}}"
+          "item": "https://www.smartbeb.com.tw/article/{{抓取-欄位-類型-英文名稱。例Life}}"
         },
         {
           "@type": "ListItem",
