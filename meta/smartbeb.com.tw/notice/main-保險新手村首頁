@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-<!--TO悅慶：當前範例url：www.smartbeb.com.tw/notice/main-->
+<!--TO悅慶：
+  1.當前範例url：www.smartbeb.com.tw/notice/main
+  2.新正式url例：www.smartbeb.com.tw/notice -->
 
 <title>保險新手村 | 買保險 SmartBeb</title>
 <meta charset="UTF-8" />
@@ -11,7 +13,7 @@
 
 <!--Open Graph-->
 <meta property="og:title" content="保險新手村 | 買保險 SmartBeb" />
-<meta property="og:url" content="https://www.smartbeb.com.tw/notice/main" />
+<meta property="og:url" content="https://www.smartbeb.com.tw/notice" />
 <meta property="og:image" content="https://www.smartbeb.com.tw/images/notice/ogimage.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
@@ -22,7 +24,7 @@
 <meta property="fb:app_id" content="434547613609263" />
 
 <!-- canonical -->
-<link rel="canonical" href="https://www.smartbeb.com.tw/notice/main" />
+<link rel="canonical" href="https://www.smartbeb.com.tw/notice" />
 
 <!--BreadcrumbList-->
 <script type="application/ld+json">
@@ -40,7 +42,7 @@
           "@type": "ListItem",
           "position": "2",
           "name": "保險新手村",
-          "item": "https://www.smartbeb.com.tw/notice/main"
+          "item": "https://www.smartbeb.com.tw/notice"
         }
       ]
     }
