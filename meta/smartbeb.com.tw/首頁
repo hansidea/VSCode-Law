@@ -87,21 +87,21 @@
         "position": 3,
         "name": "理財規劃計算機",
         "description": "",
-        "url": "https://www.smartbeb.com.tw/needs_analysis/main"
+        "url": "https://www.smartbeb.com.tw/needs_analysis"
       },
       {
         "@type": "SiteNavigationElement",
         "position": 4,
         "name": "保險新手村",
         "description": "",
-        "url": "https://www.smartbeb.com.tw/notice/main"
+        "url": "https://www.smartbeb.com.tw/notice"
       },
       {
         "@type": "SiteNavigationElement",
         "position": 5,
         "name": "保險專欄",
         "description": "",
-        "url": "https://www.smartbeb.com.tw/article/main"
+        "url": "https://www.smartbeb.com.tw/article"
       },
       {
         "@type": "SiteNavigationElement",
