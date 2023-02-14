@@ -48,12 +48,6 @@
       {
         "@type": "ListItem",
         "position": "3",
-        "name": "文章列表",
-        "item": "https://www.smartbeb.com.tw/article/all"
-      },
-      {
-        "@type": "ListItem",
-        "position": "4",
         "name": "{{抓取-欄位-類型-中文名稱。例壽險}}",
         "item": "https://www.smartbeb.com.tw/article/{{抓取-欄位-類型-英文名稱}}"
       }

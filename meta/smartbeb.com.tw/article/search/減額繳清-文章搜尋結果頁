@@ -47,12 +47,6 @@
         {
           "@type": "ListItem",
           "position": "3",
-          "name": "文章列表",
-          "item": "https://www.smartbeb.com.tw/article/all"
-        },
-        {
-          "@type": "ListItem",
-          "position": "4",
           "name": "{{抓取-本次搜尋參數}}",
           "item": "https://www.smartbeb.com.tw/article/search/{{抓取-本次搜尋參數}}"
         }

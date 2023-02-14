@@ -119,18 +119,12 @@
         {
           "@type": "ListItem",
           "position": "3",
-          "name": "文章列表",
-          "item": "https://www.smartbeb.com.tw/article/all"
+          "name": "{{抓取-欄位-類型-中文名稱。例壽險}}",
+          "item": "https://www.smartbeb.com.tw/article/{{抓取-欄位-類型-英文名稱。例life}}"
         },
         {
           "@type": "ListItem",
           "position": "4",
-          "name": "{{抓取-欄位-類型-中文名稱。例壽險}}",
-          "item": "https://www.smartbeb.com.tw/article/{{抓取-欄位-類型-英文名稱。例Life}}"
-        },
-        {
-          "@type": "ListItem",
-          "position": "5",
           "name": "{{抓取-本文標題}}",
           "item": "{{抓取-本文URL}}"
         }
