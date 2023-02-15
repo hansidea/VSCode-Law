@@ -4,7 +4,7 @@
   1.當前範例url：www.smartbeb.com.tw/author/買編/1/1
   2.新正式url例：www.smartbeb.com.tw/article/author/買編 -->
 
-<title>{{抓取-欄位-作者名稱}}的所有文章 | 買保險 SmartBeb</title>
+<title>{{抓取-欄位-作者名稱}}專欄 | 買保險 SmartBeb</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <meta name="format-detection" content="telephone=no" />
@@ -12,7 +12,7 @@
 <meta name="description" content="掌握最新的保險話題與知識，用白話文讓你明白保障規劃的基本觀念與眉角，建立起自己的想法，再也不怕被人牽著鼻子走" />
 
 <!-- Open Graph-->
-<meta property="og:title" content="{{抓取-欄位-作者名稱}}的所有文章 | 買保險 SmartBeb" />
+<meta property="og:title" content="{{抓取-欄位-作者名稱}}專欄 | 買保險 SmartBeb" />
 <meta property="og:url" content="https://www.smartbeb.com.tw/article/author/{{抓取-欄位-作者名稱}}" />
 <meta property="og:image" content="https://www.smartbeb.com.tw/images/og/og_default.jpg" />
 <meta property="og:image:width" content="1200" />
@@ -53,7 +53,7 @@
         {
           "@type": "ListItem",
           "position": "4",
-          "name": "{{抓取-欄位-作者名稱}}",
+          "name": "{{抓取-欄位-作者名稱}}"專欄,
           "item": "https://www.smartbeb.com.tw/article/author/{{抓取-欄位-作者名稱}}"
         }
       ]

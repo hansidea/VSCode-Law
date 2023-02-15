@@ -47,7 +47,7 @@
         {
           "@type": "ListItem",
           "position": "3",
-          "name": "{{抓取-本次搜尋參數}}",
+          "name": "{{抓取-本次搜尋參數}} - 文章查詢",
           "item": "https://www.smartbeb.com.tw/article/search/{{抓取-本次搜尋參數}}"
         }
       ]
