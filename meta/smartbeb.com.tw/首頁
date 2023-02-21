@@ -2,7 +2,7 @@
 <html>
 <!--TO悅慶：當前範例url：www.smartbeb.com.tw/-->
 
-<title>首頁 | 買保險 SmartBeb</title>
+<title>買保險 SmartBeb | 幫你找到可靠的保險</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <meta name="format-detection" content="telephone=no" />
@@ -10,7 +10,7 @@
 <meta name="description" content="" />
 
 <!--Open Graph-->
-<meta property="og:title" content="首頁 | 買保險 SmartBeb" />
+<meta property="og:title" content="買保險 SmartBeb | 幫你找到可靠的保險" />
 <meta property="og:url" content="https://www.smartbeb.com.tw/" />
 <meta property="og:image" content="https://www.smartbeb.com.tw/images/og/og_default.jpg" />
 <meta property="og:image:width" content="1200" />
@@ -30,7 +30,7 @@
   {
   "@context": "https://schema.org/",
   "@type": "WebSite",
-  "name": "買保險 SmartBeb",
+  "name": "買保險 SmartBeb | 幫你找到可靠的保險",
   "url": "https://www.smartbeb.com.tw/",
   "description": "我們為你打造透明、可靠的買保險平台，給你安心的保險規劃體驗。找推薦、求比較、做功課，你都可以在這裡找到優於預算的保險方案", 
   "potentialAction": [{
