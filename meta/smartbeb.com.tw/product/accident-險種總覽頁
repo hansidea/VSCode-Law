@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<!--TO悅慶：當前範例以失能險為例url：www.smartbeb.com.tw/product/collection-disability -->
+<!-- 未來有新增總覽的命名參考
+壽險 life
+失能險 disability
+長照險 long-term-care
+意外險 accident
+醫療險 medical
+癌症險 cancer
+重大傷病險 catastrophic-illness
+儲蓄險 financial-concept
+-->
+
+<title>{{失能險}}商品總覽 | 買保險 SmartBeb</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="copyright" content="Copyright © 2018 - {{今年西元年}} Rich Fountain 版權所有，禁止擅自轉貼節錄" />
+<meta name="description" content="我們為你打造透明、可靠的買保險平台，給你安心的保險規劃體驗。找推薦、求比較、做功課，你都可以在這裡找到優於預算的保險方案" />
+
+<!--Open Graph-->
+<meta property="og:title" content="{{失能險}}商品總覽 | 買保險 SmartBeb" />
+<meta property="og:url" content="https://www.smartbeb.com.tw/product/collection-{{disability}}" />
+<meta property="og:image" content="{{圖片放置連結}}" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:description" content="我們為你打造透明、可靠的買保險平台，給你安心的保險規劃體驗。找推薦、求比較、做功課，你都可以在這裡找到優於預算的保險方案" />
+<meta property="og:site_name" content="買保險 SmartBeb" />
+<meta property="og:locale" content="zh_tw" />
+<meta property="og:type" content="website" />
+<meta property="fb:app_id" content="434547613609263" />
+
+<!-- canonical -->
+<link rel="canonical" href="https://www.smartbeb.com.tw/product/collection-{{disability}}" />
+
+<!--BreadcrumbList-->
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": "1",
+          "name": "買保險 SmartBeb",
+          "item": "https://www.smartbeb.com.tw/"
+        },
+        {
+          "@type": "ListItem",
+          "position": "2",
+          "name": "保險查詢",
+          "item": "https://www.smartbeb.com.tw/product"
+        },
+        {
+          "@type": "ListItem",
+          "position": "3",
+          "name": "{{失能險}}商品總覽",
+          "item": "https://www.smartbeb.com.tw/product/search/{{抓取-本次搜尋參數}}"
+        }
+      ]
+    }
+</script>
+
+<!-- 搜尋結果列表 -->
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "CollectionPage",
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "url": "{{抓取-本頁列表-第1項-URL}}",
+            "item": {
+              "@type": "Product",
+              "name": "{{抓取-本頁列表-第1項-商品標題}}",
+              "image": "https://www.smartbeb.com.tw/images/logo.svg", //因沒有商品圖片，固定用買保險logo
+              "description": "{{抓取-本頁列表-第1項-描述文字}}", //「險種：...」+「理賠項目」內容
+              "brand": "{{抓取-保險公司名稱}}", //範例：台灣人壽。如果有值的話再加此行
+              "offers": {
+                "@type": "Offer",
+                "price": {{抓取-本頁列表-第1項-價格}}, //限制純數字
+                "priceCurrency": "TWD",
+                "availability": "http://schema.org/InStock" //銷售中："https://schema.org/InStock"，已停售："https://schema.org/Discontinued"
+              }
+            }
+          },
+          //...以此類推每一項商品
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "url": "{{抓取-本頁列表-第9項-URL}}",
+            "item": {
+              "@type": "Product",
+              "name": "{{抓取-本頁列表-第9項-商品標題}}",
+              "image": "https://www.smartbeb.com.tw/images/logo.svg",
+              "description": "{{抓取-本頁列表-第9項-描述文字}}",
+              "brand": "{{抓取-保險公司名稱}}",
+              "offers": {
+                "@type": "Offer",
+                "price": 9,
+                "priceCurrency": "TWD",
+                "availability": "http://schema.org/InStock" 
+              }
+            }
+          }
+        ]
+      }
+    }
+  </script>
+  
+
+</html>

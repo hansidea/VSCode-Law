@@ -1,0 +1,38 @@
+你是SEO技術專家，我正在規劃網站，我有關於 breadcrumb 的規劃問題
+
+我的網站有以下網址
+頁面1：S.com/index
+頁面2：S.com/tool
+頁面3：S.com/tool/menu
+頁面4：S.com/calcu
+頁面5：S.com/calcu/test1
+
+以下是網址 "S.com/tool/menu" 的 breadcrumb
+
+
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": "1",
+          "name": “index”,
+          "item": "https://S.com/index"
+        },
+        {
+          "@type": "ListItem",
+          "position": "1",
+          "name": “tool”,
+          "item": "https://S.com/tool"
+        },
+        {
+          "@type": "ListItem",
+          "position": "2",
+          "name": “tool“,
+          "item": "https://S.com/tool/menu"
+        }
+      ]
+    }
+  </script>

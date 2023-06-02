@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<!--TO悅慶：當前範例url：www.smartbeb.com.tw/product/LDG-全球人壽失扶好照終身健康保險(G版)20210101-->
+<!-- 參考https://schema.org/Product -->
+
+<!--title範例：失扶好照終身健康保險(G版) | 買保險 SmartBeb-->
+<title>{{抓取-商品名稱}}｜買保險 SmartBeb</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="copyright" content="Copyright © 2018 - {{今年西元年}} Rich Fountain 版權所有，禁止擅自轉貼節錄" /> 
+<!--description範例：保障類型：終身 繳費年期：1年期 保障年期：111歲 疾病等待期：30天，惟癌症90天。投保年齡：10年期0-65；15年期0-60歲；20年期0-55歳；25年期0-50歲；30年期0-45歲。保障持續至85歲。投保額度：20-500 萬。特定重大傷病：若因接受器官移植」、「重大創傷且嚴重程度達十六分」、「脊髓損傷引起中度身心障」、「烧燙傷面積達全身 20%或顏面燒燙傷合併五官功能障礙」、「重症肌無力症」其中一項原因領重大傷病卡，理賠金額增加20%。每一被保险人累積各項重大、特定疾病險主、附約之「累積保額」1000萬為限。-->
+<meta name="description" content="{{抓取1-主標下方「保障類型：終身」一整行 & 抓取2-網頁最下方「說明」一整大段}}" />
+
+<!--Open Graph-->
+<meta property="og:title" content="{{抓取-商品名稱}} | 買保險 SmartBeb" />
+<meta property="og:url" content="{{抓取-本文URL}}" />
+<meta property="og:image" content="" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:description" content="{{抓取1-主標下方「保障類型：終身」一整行 & 抓取2-網頁最下方「說明」一整大段}}" />
+<meta property="og:site_name" content="買保險 SmartBeb" />
+<meta property="og:locale" content="zh_tw" />
+<meta property="og:type" content="website" />
+<meta property="fb:app_id" content="434547613609263" />
+
+<!-- canonical -->
+<link rel="canonical" href="{{抓取-本文URL}}" />
+
+<!--BreadcrumbList-->
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": "1",
+          "name": "買保險 SmartBeb",
+          "item": "https://www.smartbeb.com.tw/"
+        },
+        {
+          "@type": "ListItem",
+          "position": "2",
+          "name": "保險查詢",
+          "item": "https://www.smartbeb.com.tw/product"
+        },
+        {
+          "@type": "ListItem",
+          "position": "3",
+          "name": "{{抓取-商品名稱}}",
+          "item": "{{抓取-本文URL}}"
+        }
+      ]
+    }
+</script>
+
+<!--product-->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+      "mainEntityOfPage": {
+          "@id": "{{抓取-本文URL}}"
+        },
+      "name": "{{抓取-商品名稱}}",
+      "url": "{{抓取-本文URL}}",
+      "brand": {
+          "@type": "Brand",
+          "name": "{{抓取-產品的保險公司名稱}}"
+      },
+      "releaseDate": "{{抓取-本商品最早發售時間}}T00:00:00+08:00",  //完整範例："2020-07-01T00:00:00+08:00"。若無此資料，可刪除本行
+      "category": "{{抓取-本產品險種分類}}", //須確認API是否有這個值，若無此資料，可刪除本行
+      "description": "{{抓取1-主標下方「保障類型：終身」一整行 & 抓取2-網頁最下方「說明」一整大段}}",
+      "additionalProperty": [  //以下為理賠項目的詳細資料
+          {
+              "@type": "PropertyValue",
+              "name": "{{抓取-第1大段-主要給付項目種類}}-{{抓取-第1列-項目列表}}", //範例：住院實支實付-一般病房
+              "value": "{{抓取-第1列-金額內容}}" //範例：限額 1,000元/日
+          },
+          {
+              "@type": "PropertyValue",
+              "name": "住院實支實付-加護病房",
+              "value": "限額 3,000元/日"
+          },
+          {
+              "@type": "PropertyValue",
+              "name": "住院實支實付-燒燙傷病房",
+              "value": "限額 3,000元/日"
+          },
+          {
+              "@type": "PropertyValue",
+              "name": "住院實支實付-醫療雜費",
+              "value": "限額 9萬元"
+          },
+          {
+              "@type": "PropertyValue",
+              "name": "手術實支實付-門診手術",
+              "value": "限額 16萬元/次"
+          },
+          {
+              "@type": "PropertyValue",
+              "name": "住院日額-住院前後門診",
+              "value": "限額 600元/次"
+          } 
+          //...以下以此類推，列出全部的理賠項目
+      ],
+      "offers": {
+          "@type": "AggregateOffer",
+          "priceCurrency": "TWD",
+          "lowPrice": {{抓取-本頁商品-金額}}, ////限制純數字，範例：1138152
+          "availability": "https://schema.org/Discontinued" //銷售中："https://schema.org/InStock"，已停售："https://schema.org/Discontinued"
+      }
+  }
+  </script>
+
+  
+</html>
