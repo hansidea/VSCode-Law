@@ -106,27 +106,27 @@
       {
         "@type": "SiteNavigationElement",
         "position": 6,
-        "name": "保單健診",
+        "name": "AI保單健診",
         "description": "各大保險公司 保單免費整理服務",
         "url": "https://www.smartbeb.com.tw/inspect_intro"
       },
       {
         "@type": "SiteNavigationElement",
-        "position": 6,
+        "position": 7,
         "name": "保險查詢",
         "description": "",
         "url": "https://www.smartbeb.com.tw/product"
       },
       {
         "@type": "SiteNavigationElement",
-        "position": 7,
+        "position": 8,
         "name": "保險組合器",
         "description": "",
         "url": "https://www.smartbeb.com.tw/insurance-combination"
       },
       {
         "@type": "SiteNavigationElement",
-        "position": 8,
+        "position": 9,
         "name": "家庭保單管理",
         "description": "你最貼心的保單收納盒",
         "url": "https://www.smartbeb.com.tw/member/policy/family/tutorial"
