@@ -35,7 +35,7 @@
   "description": "我們為你打造透明、可靠的買保險平台，給你安心的保險規劃體驗。找推薦、求比較、做功課，你都可以在這裡找到優於預算的保險方案", 
   "potentialAction": [{
       "@type": "SearchAction",
-      "target": "https://www.smartbeb.com.tw/insurance-search/{search_term_string}",
+      "target": "https://www.smartbeb.com.tw/product/search/{search_term_string}",
       "query-input": "required name=search_term_string"
   }, {
       "@type": "SearchAction",
@@ -113,9 +113,9 @@
       {
         "@type": "SiteNavigationElement",
         "position": 6,
-        "name": "保單查詢",
+        "name": "保險查詢",
         "description": "",
-        "url": "https://www.smartbeb.com.tw/insurance-search"
+        "url": "https://www.smartbeb.com.tw/product"
       },
       {
         "@type": "SiteNavigationElement",
