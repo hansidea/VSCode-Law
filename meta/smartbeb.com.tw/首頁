@@ -26,6 +26,7 @@
 <link rel="canonical" href="https://www.smartbeb.com.tw/" />
 
 <!--WebSite-->
+<!--這個標記只能在首頁新增，不能在其他頁面，最多1～2個，最好不超過1個，Google 可能只會識別和使用一個-->
 <script type="application/ld+json">
   {
   "@context": "https://schema.org/",
