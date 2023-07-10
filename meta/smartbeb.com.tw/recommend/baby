@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<!--TO悅慶：當前範例url：www.smartbeb.com.tw/recommend/baby-->
+
+<title>2023 新生兒罐頭保單｜買保險 SmartBeb</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="copyright" content="Copyright © 2018 - {{今年西元年}} Rich Fountain 版權所有，禁止擅自轉貼節錄" />
+<meta name="description" content="罐頭保單找誰買？不論是新生兒、初次買保險者、預算有限者，都很推薦「罐頭保單」這個絕佳好選擇。低保費也能拉高全面保障，幫你輕鬆為自己和家人，搭一座更穩健的靠山" />
+
+<!--Open Graph-->
+<meta property="og:title" content="2023 新生兒罐頭保單｜買保險 SmartBeb" />
+<meta property="og:url" content="https://www.smartbeb.com.tw/recommend/baby" />
+<meta property="og:image" content="" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:description" content="罐頭保單找誰買？不論是新生兒、初次買保險者、預算有限者，都很推薦「罐頭保單」這個絕佳好選擇。低保費也能拉高全面保障，幫你輕鬆為自己和家人，搭一座更穩健的靠山" />
+<meta property="og:site_name" content="買保險 SmartBeb" />
+<meta property="og:locale" content="zh_tw" />
+<meta property="og:type" content="website" />
+<meta property="fb:app_id" content="434547613609263" />
+
+<!-- canonical -->
+<link rel="canonical" href="https://www.smartbeb.com.tw/recommend/baby" />
+
+<!--BreadcrumbList-->
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": "1",
+          "name": "買保險 SmartBeb",
+          "item": "https://www.smartbeb.com.tw/"
+        },
+        {
+          "@type": "ListItem",
+          "position": "2",
+          "name": "2023 新生兒罐頭保單",
+          "item": "https://www.smartbeb.com.tw/recommend/baby"
+        }
+      ]
+    }
+</script>
+
+<!--AggregateOffer-->
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "AggregateOffer",
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "保障滿分計畫",
+          "description": "{{抓取-標題第三行細節描述}}", //例如：台灣人壽+全球人壽+安達人壽+新安東京海上
+          "price": "{{抓取-保障滿分計畫-年繳保費}}"
+        },
+        {
+          "@type": "Offer",
+          "name": "全方位及格計畫",
+          "description": "這是我們的保險方案B的詳細描述...",
+          "price": "{{抓取-全方位及格計畫-年繳保費}}"
+        },
+        {
+          "@type": "Offer",
+          "name": "預算有限計畫",
+          "description": "這是我們的保險方案C的詳細描述...",
+          "price": "{{抓取-預算有限計畫-年繳保費}}"
+        }
+      ],
+      "lowPrice": "{{抓取-三個計畫中的最低金額}}",
+      "highPrice": "{{抓取-三個計畫中的最高金額}}",
+      "offerCount": 3
+    }
+    </script>
+
+</html>
