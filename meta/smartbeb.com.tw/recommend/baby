@@ -48,33 +48,33 @@
 
 <!--AggregateOffer-->
 <script type="application/ld+json">
-    {
-      "@context": "https://schema.org/",
-      "@type": "AggregateOffer",
-      "offers": [
-        {
-          "@type": "Offer",
-          "name": "保障滿分計畫",
-          "description": "{{抓取-標題第三行細節描述}}", //例如：台灣人壽+全球人壽+安達人壽+新安東京海上
-          "price": "{{抓取-保障滿分計畫-年繳保費}}"
-        },
-        {
-          "@type": "Offer",
-          "name": "全方位及格計畫",
-          "description": "這是我們的保險方案B的詳細描述...",
-          "price": "{{抓取-全方位及格計畫-年繳保費}}"
-        },
-        {
-          "@type": "Offer",
-          "name": "預算有限計畫",
-          "description": "這是我們的保險方案C的詳細描述...",
-          "price": "{{抓取-預算有限計畫-年繳保費}}"
-        }
-      ],
-      "lowPrice": "{{抓取-三個計畫中的最低金額}}",
-      "highPrice": "{{抓取-三個計畫中的最高金額}}",
-      "offerCount": 3
-    }
-    </script>
+  {
+    "@context": "https://schema.org/",
+    "@type": "AggregateOffer",
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "抓取-方案名稱-第1個",
+        "description": "{{抓取-標題第三行保險公司描述}}", //例如：台灣人壽+全球人壽+安達人壽+新安東京海上
+        "price": "{{抓取-第1個方案-總保費金額}}"
+      },
+      {
+        "@type": "Offer",
+        "name": "抓取-方案名稱-第2個",
+        "description": "{{抓取-標題第三行保險公司描述}}",
+        "price": "{{抓取-第2個方案-總保費金額}}"
+      },
+      {
+        "@type": "Offer",
+        "name": "抓取-方案名稱-第n個...以此類推",
+        "description": "{{抓取-標題第三行保險公司描述}}",
+        "price": "{{抓取-第n個方案-總保費金額}}"
+      }
+    ],
+    "lowPrice": "{{抓取-全部出現方案-最低金額}}",
+    "highPrice": "{{抓取-全部出現方案-最高金額}}",
+    "offerCount": {{抓取-全部出現方案-總數量}}
+  }
+  </script>
 
 </html>
