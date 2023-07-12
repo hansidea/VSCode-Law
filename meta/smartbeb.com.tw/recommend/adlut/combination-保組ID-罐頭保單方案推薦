@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<!--TO悅慶：
+  1.當前範例url：www.smartbeb.com.tw/insurance-combination/9da5f82f517f0345cbd2c87db652373a?v=2&type=recommend&plan=1&gender=1&job=1&y=81&m=7&d=12&income=40%20萬以下
+  2.新正式url例：www.smartbeb.com.tw/recommend/adult/combination-9da5f82f517f0345cbd2c87db652373a -->
+
+<title>{{方案名稱}} - 2023 成人罐頭保單｜買保險 SmartBeb</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="copyright" content="Copyright © 2018 - {{今年西元年}} Rich Fountain 版權所有，禁止擅自轉貼節錄" />
+<meta name="description" content="罐頭保單找誰買？不論是新生兒、初次買保險者、預算有限者，都很推薦「罐頭保單」這個絕佳好選擇。低保費也能拉高全面保障，幫你輕鬆為自己和家人，搭一座更穩健的靠山" />
+
+<!--Open Graph-->
+<meta property="og:title" content="{{方案名稱}} - 2023 成人罐頭保單｜買保險 SmartBeb" />
+<meta property="og:url" content="{{抓取-本方案URL}}" />
+<meta property="og:image" content="" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:description" content="罐頭保單找誰買？不論是新生兒、初次買保險者、預算有限者，都很推薦「罐頭保單」這個絕佳好選擇。低保費也能拉高全面保障，幫你輕鬆為自己和家人，搭一座更穩健的靠山" />
+<meta property="og:site_name" content="買保險 SmartBeb" />
+<meta property="og:locale" content="zh_tw" />
+<meta property="og:type" content="website" />
+<meta property="fb:app_id" content="434547613609263" />
+
+<!-- canonical -->
+<link rel="canonical" href="{{抓取-本方案URL}}" />
+
+<!--BreadcrumbList-->
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": "1",
+          "name": "買保險 SmartBeb",
+          "item": "https://www.smartbeb.com.tw/"
+        },
+        {
+          "@type": "ListItem",
+          "position": "2",
+          "name": "成人罐頭保單",
+          "item": "https://www.smartbeb.com.tw/recommend/adult"
+        },
+        {
+          "@type": "ListItem",
+          "position": "3",
+          "name": "{{方案名稱}}",
+          "item": "{{抓取-本方案URL}}"
+        }
+      ]
+    }
+</script>
+
+<!--Product-->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "Product",
+              "name": "抓取-產品名稱-第1個", //例：(NTIW1201) 傳承富足利率變動型終身壽險
+              "url": "抓取-產品網址-第1個", //例：NTIW1201-台灣人壽傳承富足利率變動型終身壽險20230101
+              "brand": {
+                "@type": "Organization",
+                "name": "抓取-產品的保險公司名稱-第1個" //例：台灣人壽
+              },
+              "offers": {
+                "@type": "Offer",
+                "url": "抓取-產品網址-第1個",
+                "priceCurrency": "TWD",
+                "price": "抓取-產品價格-第1個",
+                "availability": "https://schema.org/InStock" //銷售中："https://schema.org/InStock"，已停售："https://schema.org/Discontinued"
+              },
+              "image": "https://www.smartbeb.com.tw/images/logo.svg" //因沒有產品圖，固定使用這個網址
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "Product",
+              "name": "抓取-產品名稱-第2個",
+              "url": "抓取-產品網址-第2個",
+              "brand": {
+                "@type": "Organization",
+                "name": "抓取-產品的保險公司名稱-第2個"
+              },
+              "offers": {
+                "@type": "Offer",
+                "url": "抓取-產品網址-第2個",
+                "priceCurrency": "TWD",
+                "price": "抓取-產品價格-第2個",
+                "availability": "https://schema.org/InStock"
+              },
+              "image": "https://www.smartbeb.com.tw/images/logo.svg"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": n, //...以此類推
+            "item": {
+              "@type": "Product",
+              "name": "抓取-產品名稱-第n個",
+              "url": "抓取-產品網址-第n個",
+              "brand": {
+                "@type": "Organization",
+                "name": "抓取-產品的保險公司名稱-第n個"
+              },
+              "offers": {
+                "@type": "Offer",
+                "url": "抓取-產品網址-第n個",
+                "priceCurrency": "TWD",
+                "price": "抓取-產品價格-第n個",
+                "availability": "https://schema.org/InStock"
+              },
+              "image": "https://www.smartbeb.com.tw/images/logo.svg"
+            }
+          }
+        ]
+      }
+      </script>
+      
+</html>
