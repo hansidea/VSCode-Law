@@ -4,7 +4,7 @@
   1.當前範例url：www.smartbeb.com.tw/insurance-combination/9da5f82f517f0345cbd2c87db652373a?v=2&type=recommend&plan=1&gender=1&job=1&y=81&m=7&d=12&income=40%20萬以下
   2.新正式url例：www.smartbeb.com.tw/recommend/adult/combination-9da5f82f517f0345cbd2c87db652373a -->
 
-<title>{{方案名稱}} - 2023 成人罐頭保單｜買保險 SmartBeb</title>
+<title>{{抓取-本方案名稱}} - 2023 成人罐頭保單｜買保險 SmartBeb</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
 <meta name="format-detection" content="telephone=no" />
@@ -12,7 +12,7 @@
 <meta name="description" content="罐頭保單找誰買？不論是新生兒、初次買保險者、預算有限者，都很推薦「罐頭保單」這個絕佳好選擇。低保費也能拉高全面保障，幫你輕鬆為自己和家人，搭一座更穩健的靠山" />
 
 <!--Open Graph-->
-<meta property="og:title" content="{{方案名稱}} - 2023 成人罐頭保單｜買保險 SmartBeb" />
+<meta property="og:title" content="{{抓取-本方案名稱}} - 2023 成人罐頭保單｜買保險 SmartBeb" />
 <meta property="og:url" content="{{抓取-本方案URL}}" />
 <meta property="og:image" content="" />
 <meta property="og:image:width" content="1200" />
@@ -47,7 +47,7 @@
         {
           "@type": "ListItem",
           "position": "3",
-          "name": "{{方案名稱}}",
+          "name": "{{抓取-本方案名稱}}",
           "item": "{{抓取-本方案URL}}"
         }
       ]
@@ -127,4 +127,43 @@
       }
       </script>
       
+
+<!--view_item_list for Tag Manager-->
+dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+dataLayer.push({
+  event: "view_item_list",
+  ecommerce: {
+    item_list_id: "{{抓取-本組合URL後面的ID}}", //例：9da5f82f517f0345cbd2c87db652373a
+    item_list_name: "{{抓取-本方案名稱}}", //例：保障滿分計畫
+    items: [
+      {
+        item_id: "抓取-產品代號-括號內ID部分-第1個", //例：NTIW1201
+        item_name: "抓取-產品名稱-第1個", //例：傳承富足利率變動型終身壽險
+        affiliation: "買保險 SmartBeb",
+        item_brand: "抓取-產品的保險公司名稱-第1個", //例：台灣人壽
+        price: "抓取-產品價格-第1個",
+        index: 0 //注意由0開始編碼
+      },
+      {
+        item_id: "抓取-產品代號-括號內ID部分-第2個",
+        item_name: "抓取-產品名稱-第2個",
+        affiliation: "買保險 SmartBeb",
+        item_brand: "抓取-產品的保險公司名稱-第2個",
+        price: "抓取-產品價格-第2個",
+        index: 1
+      },
+      {
+        item_id: "抓取-產品代號-括號內ID部分-第n個",
+        item_name: "抓取-產品名稱-第n個",
+        affiliation: "買保險 SmartBeb",
+        item_brand: "抓取-產品的保險公司名稱-第n個",
+        price: "抓取-產品價格-第n個",
+        index: n
+      }
+    ]
+  }
+});
+
+
+
 </html>
