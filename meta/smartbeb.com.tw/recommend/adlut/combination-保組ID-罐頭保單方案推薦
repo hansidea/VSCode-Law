@@ -140,7 +140,7 @@ dataLayer.push({
     item_list_name: "{{抓取-本方案名稱}}", //例：保障滿分計畫
     items: [
       {
-        item_id: "{{抓取-產品代號-括號內ID部分-第1個}}", //例：NTIW1201
+        item_id: "{{抓取-產品代號-括號內部分-第1個}}", //例：NTIW1201
         item_name: "{{抓取-產品名稱-第1個}}", //例：傳承富足利率變動型終身壽險
         affiliation: "買保險 SmartBeb",
         item_brand: "{{抓取-產品的保險公司名稱-第1個}}", //例：台灣人壽

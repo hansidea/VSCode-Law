@@ -70,7 +70,7 @@
           "name": "{{抓取-產品的保險公司名稱}}"
       },
       "releaseDate": "{{抓取-本商品最早發售時間}}T00:00:00+08:00",  //完整範例："2020-07-01T00:00:00+08:00"。若無此資料，可刪除本行
-      "category": "{{抓取-本產品險種分類}}", //須確認API是否有這個值，若無此資料，可刪除本行
+      "category": "{{抓取-產品險種分類}}", //例：medical，在API裡面應該有險種分類
       "description": "{{抓取1-主標下方「保障類型：終身」一整行 & 抓取2-網頁最下方「說明」一整大段}}",
       "additionalProperty": [  //以下為理賠項目的詳細資料
           {
@@ -114,5 +114,25 @@
   }
   </script>
 
-  
+<!--view_item for Tag Manager-->
+  dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+  dataLayer.push({
+    event: "view_item",
+    ecommerce: {
+      currency: "TWD",
+      value: {{抓取-本頁商品-金額}}, //例：16155，直接抓取年繳保費金額
+      items: [
+      {
+        item_id: "{{抓取-產品代號}}", //例：LDG
+        item_name: "{{抓取-產品名稱}}", //例：失扶好照終身健康保險(G版)
+        affiliation: "買保險 SmartBeb",
+        item_brand: "{{抓取-產品的保險公司名稱}}", //例：全球人壽
+        item_category: "{{抓取-產品險種分類}}", //例：medical，在API裡面應該有險種分類
+        price: {{抓取-本頁商品-金額}},
+      }
+      ]
+    }
+  });
+
+
 </html>
