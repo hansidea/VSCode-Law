@@ -55,77 +55,80 @@
 </script>
 
 <!--Product-->
-    <script type="application/ld+json">
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
       {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@type": "Product",
-              "name": "抓取-產品名稱-第1個", //例：(NTIW1201) 傳承富足利率變動型終身壽險
-              "url": "抓取-產品網址-第1個", //例：NTIW1201-台灣人壽傳承富足利率變動型終身壽險20230101
-              "brand": {
-                "@type": "Organization",
-                "name": "抓取-產品的保險公司名稱-第1個" //例：台灣人壽
-              },
-              "offers": {
-                "@type": "Offer",
-                "url": "抓取-產品網址-第1個",
-                "priceCurrency": "TWD",
-                "price": "抓取-產品價格-第1個",
-                "availability": "https://schema.org/InStock" //銷售中："https://schema.org/InStock"，已停售："https://schema.org/Discontinued"
-              },
-              "image": "https://www.smartbeb.com.tw/images/logo.svg" //因沒有產品圖，固定使用這個網址
-            }
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Product",
+          "productID": "抓取-產品代號-括號內ID部分-第1個", // 例：NTIW1201
+          "name": "抓取-產品名稱-第1個", //例：傳承富足利率變動型終身壽險
+          "url": "抓取-產品網址-第1個",
+          "brand": {
+            "@type": "Organization",
+            "name": "抓取-產品的保險公司名稱-第1個" //例：台灣人壽
           },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@type": "Product",
-              "name": "抓取-產品名稱-第2個",
-              "url": "抓取-產品網址-第2個",
-              "brand": {
-                "@type": "Organization",
-                "name": "抓取-產品的保險公司名稱-第2個"
-              },
-              "offers": {
-                "@type": "Offer",
-                "url": "抓取-產品網址-第2個",
-                "priceCurrency": "TWD",
-                "price": "抓取-產品價格-第2個",
-                "availability": "https://schema.org/InStock"
-              },
-              "image": "https://www.smartbeb.com.tw/images/logo.svg"
-            }
+          "offers": {
+            "@type": "Offer",
+            "url": "抓取-產品網址-第1個",
+            "priceCurrency": "TWD",
+            "price": "抓取-產品價格-第1個",
+            "availability": "https://schema.org/InStock" //銷售中："https://schema.org/InStock"，已停售："https://schema.org/Discontinued"
           },
-          {
-            "@type": "ListItem",
-            "position": n, //...以此類推
-            "item": {
-              "@type": "Product",
-              "name": "抓取-產品名稱-第n個",
-              "url": "抓取-產品網址-第n個",
-              "brand": {
-                "@type": "Organization",
-                "name": "抓取-產品的保險公司名稱-第n個"
-              },
-              "offers": {
-                "@type": "Offer",
-                "url": "抓取-產品網址-第n個",
-                "priceCurrency": "TWD",
-                "price": "抓取-產品價格-第n個",
-                "availability": "https://schema.org/InStock"
-              },
-              "image": "https://www.smartbeb.com.tw/images/logo.svg"
-            }
-          }
-        ]
+          "image": "https://www.smartbeb.com.tw/images/logo.svg" //因沒有產品圖，固定使用這個網址
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Product",
+          "productID": "抓取-產品代號-括號內ID部分-第2個",
+          "name": "抓取-產品名稱-第2個",
+          "url": "抓取-產品網址-第2個",
+          "brand": {
+            "@type": "Organization",
+            "name": "抓取-產品的保險公司名稱-第2個"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "抓取-產品網址-第2個",
+            "priceCurrency": "TWD",
+            "price": "抓取-產品價格-第2個",
+            "availability": "https://schema.org/InStock"
+          },
+          "image": "https://www.smartbeb.com.tw/images/logo.svg"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": n, //...以此類推
+        "item": {
+          "@type": "Product",
+          "productID": "抓取-產品代號-括號內ID部分-第n個",
+          "name": "抓取-產品名稱-第n個",
+          "url": "抓取-產品網址-第n個",
+          "brand": {
+            "@type": "Organization",
+            "name": "抓取-產品的保險公司名稱-第n個"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "抓取-產品網址-第n個",
+            "priceCurrency": "TWD",
+            "price": "抓取-產品價格-第n個",
+            "availability": "https://schema.org/InStock"
+          },
+          "image": "https://www.smartbeb.com.tw/images/logo.svg"
+        }
       }
-      </script>
+    ]
+  }
+  </script>
 
 <!--view_item_list for Tag Manager-->
 dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
