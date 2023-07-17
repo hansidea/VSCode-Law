@@ -126,5 +126,41 @@
         ]
       }
       </script>
-      
+
+<!--view_item_list for Tag Manager-->
+dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+dataLayer.push({
+  event: "view_item_list",
+  ecommerce: {
+    item_list_id: "{{抓取-本組合URL後面的ID}}", //例：9da5f82f517f0345cbd2c87db652373a
+    item_list_name: "{{抓取-本方案名稱}}", //例：保障滿分計畫
+    items: [
+      {
+        item_id: "抓取-產品代號-括號內ID部分-第1個", //例：NTIW1201
+        item_name: "抓取-產品名稱-第1個", //例：傳承富足利率變動型終身壽險
+        affiliation: "買保險 SmartBeb",
+        item_brand: "抓取-產品的保險公司名稱-第1個", //例：台灣人壽
+        price: "抓取-產品價格-第1個",
+        index: 0 //注意由0開始編碼
+      },
+      {
+        item_id: "抓取-產品代號-括號內ID部分-第2個",
+        item_name: "抓取-產品名稱-第2個",
+        affiliation: "買保險 SmartBeb",
+        item_brand: "抓取-產品的保險公司名稱-第2個",
+        price: "抓取-產品價格-第2個",
+        index: 1
+      },
+      {
+        item_id: "抓取-產品代號-括號內ID部分-第n個",
+        item_name: "抓取-產品名稱-第n個",
+        affiliation: "買保險 SmartBeb",
+        item_brand: "抓取-產品的保險公司名稱-第n個",
+        price: "抓取-產品價格-第n個",
+        index: n
+      }
+    ]
+  }
+});
+
 </html>
