@@ -137,7 +137,7 @@ dataLayer.push({
   event: "view_item_list",
   ecommerce: {
     item_list_id: "{{抓取-本組合URL後面的ID}}", //例：9da5f82f517f0345cbd2c87db652373a
-    item_list_name: "{{抓取-本方案名稱}}", //例：保障滿分計畫
+    item_list_name: "recommend/adult/{{抓取-本方案名稱}}", //例：保障滿分計畫
     items: [
       {
         item_id: "{{抓取-產品代號-括號內部分-第1個}}", //例：NTIW1201
