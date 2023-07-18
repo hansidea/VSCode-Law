@@ -79,20 +79,19 @@
             }
           }
         },
-        //...以此類推每一項商品
         {
           "@type": "ListItem",
-          "position": 9, //範例以9為最末項，如還有往下內容，請繼續往下抓取
-          "url": "{{抓取-本頁列表-第9項-URL}}",
+          "position": n, //...以此類推每一項商品
+          "url": "{{抓取-本頁列表-第n項-URL}}",
           "item": {
             "@type": "Product",
-            "name": "{{抓取-本頁列表-第9項-商品標題}}",
+            "name": "{{抓取-本頁列表-第n項-商品標題}}",
             "image": "https://www.smartbeb.com.tw/images/logo.svg",
-            "description": "{{抓取-本頁列表-第9項-描述文字}}",
+            "description": "{{抓取-本頁列表-第n項-描述文字}}",
             "brand": "{{抓取-保險公司名稱}}",
             "offers": {
               "@type": "Offer",
-              "price": {{抓取-本頁列表-第9項-價格}},
+              "price": {{抓取-本頁列表-第n項-價格}},
               "priceCurrency": "TWD",
               "availability": "http://schema.org/InStock" 
             }
