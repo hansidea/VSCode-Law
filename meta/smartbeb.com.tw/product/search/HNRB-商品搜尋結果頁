@@ -108,7 +108,7 @@ dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
 dataLayer.push({
   event: "view_item_list",
   ecommerce: {
-    item_list_name: "{{抓取-本次搜尋參數}}", //例搜尋參數：實支實付
+    item_list_name: "product/search/{{抓取-本次搜尋參數}}", //例搜尋參數{{實支實付}}：product/search/實支實付
     items: [
       {
         item_id: "{{抓取-產品代號-括號內部分-第1個}}", //例：NTIW1201
@@ -129,7 +129,7 @@ dataLayer.push({
         index: 1
       },
       {
-        item_id: "{{抓取-產品代號-括號內ID部分-第n個}}",
+        item_id: "{{抓取-產品代號-括號內ID部分-第n個}}", //以此類推每一項產品
         item_name: "{{抓取-產品名稱-第n個}}",
         affiliation: "買保險 SmartBeb",
         item_brand: "{{抓取-產品的保險公司名稱-第n個}}",
