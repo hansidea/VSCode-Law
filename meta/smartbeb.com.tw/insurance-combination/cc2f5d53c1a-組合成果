@@ -127,5 +127,75 @@
         ]
       }
       </script>
+
+<!--select_item for Tag Manager 新增/修改單一商品時使用 -->
+<!--狀況：每一次選取商品→選完年期日額→出現個別金額送出以下dataLayer
+    規則：單一商品獨立一個event，不可寫Array-->
+      dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+      dataLayer.push({
+        event: "select_item",
+        ecommerce: {
+          item_list_id: "{{抓取-本頁保險組合器ID}}", //例：cc2f5d53c1a395981d1fef22876d0cb7，沒有ID的話送空值
+          item_list_name: "{{抓取-上一步選擇的熱門組合}} 組合成果 - 保險組合器", //套用熱門組合：「2023 新生兒罐頭保單 組合成果 - 保險組合器」。其它預設狀況：「組合成果 - 保險組合器」
+          items: [
+          {
+            item_id: "{{抓取-產品代號-括號內部分}}", //例：LEGOAE
+            item_name: "{{抓取-產品名稱}}", //例：安心樂高終身保險
+            affiliation: "{{抓取-服務業務/抓取-服務公司}}", //例：陳小明/錠嵂保險經紀人，當有業務數位名片時再出現，沒有時維持空值
+            item_brand: "{{抓取-產品的保險公司名稱}}", //例：中國人壽
+            item_category: "{{抓取-本產品險種分類}}", //例：壽險，按網頁顯示文字
+            item_category2: "{{抓取-本產品保障類型}}", //例：終身，按網頁顯示文字
+            item_category3: "{{抓取-本產品是否停售}}", //例：ture：停售，false：現售
+            price: "{{抓取-產品價格}}",
+          }
+          ]
+        }
+      });
       
+<!--view_item_list for Tag Manager 一次出現多個商品時使用-->
+<!--狀況：
+  1.「套用熱門組合」→選取罐頭保單→出現所有商品→送出以下dataLayer
+  2.「進入保組時帶有ID」→進入網頁時出現所有商品→送出以下dataLayer-->
+dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+dataLayer.push({
+  event: "view_item_list",
+  ecommerce: {
+    item_list_id: "{{抓取-本頁保險組合器ID}}", //例：cc2f5d53c1a395981d1fef22876d0cb7
+    item_list_name: "{{抓取-上一步選擇的熱門組合}} 組合成果 - 保險組合器", //套用熱門組合：「2023 新生兒罐頭保單 組合成果 - 保險組合器」。其它預設狀況：「組合成果 - 保險組合器」
+    items: [
+      {
+        item_id: "{{抓取-產品代號-括號內部分-第1個}}", //例：NTIW1201
+        item_name: "{{抓取-產品名稱-第1個}}", //例：傳承富足利率變動型終身壽險
+        affiliation: "{{抓取-服務業務/抓取-服務公司}}", //例：陳小明/錠嵂保險經紀人，當有業務數位名片時再出現，沒有時維持空值
+        item_brand: "{{抓取-產品的保險公司名稱-第1個}}", //例：台灣人壽
+        item_category: "{{抓取-本產品險種分類-第1個}}", //例：壽險，按網頁顯示文字
+        item_category2: "{{抓取-本產品保障類型-第1個}}", //例：終身，按網頁顯示文字
+        item_category3: "{{抓取-本產品是否停售-第1個}}", //例：ture：停售，false：現售
+        price: "{{抓取-產品價格-第1個}}",
+        index: 1
+      },
+      {
+        item_id: "{{抓取-產品代號-括號內ID部分-第2個}}",
+        item_name: "{{抓取-產品名稱-第2個}}",
+        affiliation: "{{抓取-服務業務/抓取-服務公司}}", //例：陳小明/錠嵂保險經紀人，當有業務數位名片時再出現，沒有時維持空值
+        item_category: "{{抓取-本產品險種分類-第2個}}", //例：壽險，按網頁顯示文字
+        item_category2: "{{抓取-本產品保障類型-第2個}}", //例：終身，按網頁顯示文字
+        item_category3: "{{抓取-本產品是否停售-第2個}}", //例：ture：停售，false：現售
+        price: "{{抓取-產品價格-第2個}}",
+        index: 2
+      },
+      {
+        item_id: "{{抓取-產品代號-括號內ID部分-第n個}}", //以此類推每一項產品
+        item_name: "{{抓取-產品名稱-第n個}}",
+        affiliation: "{{抓取-服務業務/抓取-服務公司}}", //例：陳小明/錠嵂保險經紀人，當有業務數位名片時再出現，沒有時維持空值
+        item_category: "{{抓取-本產品險種分類-第n個}}", //例：壽險，按網頁顯示文字
+        item_category2: "{{抓取-本產品保障類型-第n個}}", //例：終身，按網頁顯示文字
+        item_category3: "{{抓取-本產品是否停售-第n個}}", //例：ture：停售，false：現售
+        price: "{{抓取-產品價格-第n個}}",
+        index: {{n}}
+      }
+    ]
+  }
+});
+
 </html>
