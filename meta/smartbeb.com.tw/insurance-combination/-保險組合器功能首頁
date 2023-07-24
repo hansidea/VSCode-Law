@@ -120,5 +120,29 @@
         ]
       }
       </script>
-      
+
+<!--select_item for Tag Manager 新增/修改單一商品時使用 -->
+<!--狀況：每一次選取商品→選完年期日額→出現個別金額送出以下dataLayer
+    規則：1單一商品獨立一個event，不可寫Array
+         2只有新增、修改才需要push，刪除則不需push-->
+         dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+         dataLayer.push({
+           event: "select_item",
+           ecommerce: {
+             item_list_name: "保險組合器",
+             items: [
+             {
+               item_id: "{{抓取-產品代號-括號內部分}}", //例：LEGOAE
+               item_name: "{{抓取-產品名稱}}", //例：安心樂高終身保險
+               affiliation: "{{抓取-服務業務}}-{{抓取-服務公司}}", //例：陳小明-錠嵂保險經紀人，當有業務數位名片時再出現，沒有時維持空值
+               item_brand: "{{抓取-產品的保險公司名稱}}", //例：中國人壽
+               item_category: "{{抓取-本產品險種分類}}", //例：壽險，按網頁顯示文字
+               item_category2: "{{抓取-本產品保障類型}}", //例：終身，按網頁顯示文字
+               item_category3: "{{抓取-本產品是否停售}}", //例：ture：停售，false：現售
+               price: "{{抓取-產品價格}}",
+             }
+             ]
+           }
+         });
+
 </html>
