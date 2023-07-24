@@ -130,7 +130,8 @@
 
 <!--select_item for Tag Manager 新增/修改單一商品時使用 -->
 <!--狀況：每一次選取商品→選完年期日額→出現個別金額送出以下dataLayer
-    規則：單一商品獨立一個event，不可寫Array-->
+    規則：1單一商品獨立一個event，不可寫Array
+         2只有新增、修改才需要push，刪除則不需push-->
       dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
       dataLayer.push({
         event: "select_item",
