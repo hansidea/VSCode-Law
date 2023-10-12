@@ -25,6 +25,7 @@
 <meta property="fb:app_id" content="434547613609263" />
 
 <!-- canonical -->
+<!-- 注意canonical網址後面不應有...? 等參數 -->
 <link rel="canonical" href="{{抓取-本文URL}}" />
 
 <!--BreadcrumbList-->
